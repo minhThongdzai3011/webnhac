@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- bài 1 tạo nút bấm -->
+    <!-- <button id="btn1" style="background-color: blue; padding: 10px;  ">Hiển thị nút bấm 2</button>
+    <button id="btn2" style="background-color: red;  padding: 10px;  ">Hiển thị nút bấm 1</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn2").hide();
+            $("#btn1").click(function(){
+                $("#btn1").hide();
+                $("#btn2").show();
+            });
+            $("#btn2").click(function(){
+                $("#btn2").hide();
+                $("#btn1").show();
+            });
+        });
+    </script> -->
+
+    <!-- bài 2 kiểm tra dữ liệu -->
+    <!-- <form id="userform">
+        <label for="">Tên đăng nhập</label><br>
+        <input type="text" id="username"><br>
+        <label for="">Mật khẩu</label><br>
+        <input type="text" id="passwword"><br>
+        <input type="submit" value="Gửi">
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("userform").submit(function(){
+            let username = $("username").val();
+            let passwword = $("passwword").val();
+            if (username == "" || passwword =="" ){
+                alert("Username hoặc Passwword không được bỏ trống");
+                return false;
+            }
+            return false;
+        });
+    });
+    </script> -->
+
+
+
+    <!-- bài 3 Tính tổng 2 số -->
+    <!-- <form id="nhap">
+        <label for="">Nhập số 1</label><br>
+        <input type="text" id="so1"><br>
+        <label for="">Nhập số 2</label><br>
+        <input type="text" id="so2"><br>
+        <input type="submit" value="Tính">
+        <p id="ketqua"></p>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#nhap").submit(function(){
+                let so1 = parseFloat($("#so1").val());
+                let so2 = parseFloat($("#so2").val());
+                if (so1 == "" || so2 =="" ){
+                alert("so1 hoặc so2 không được bỏ trống");
+                return false;
+            }
+                let sum = so1 + so2;
+                $("#ketqua").text("Kết quả: " + sum);
+            });
+        });
+    </script> -->
+    
+    
+    <!-- <script>
+    let mang = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
+    let max = Math.max(...mang);
+    console.log("Giá trị lớn nhất trong mảng là: " + max);
+    </script> -->
+
+    <!-- <script>
+        let n = Number(prompt('nhap so luong n'));
+        let mang = [n];
+        for ( let i=0;i<n;i++){
+            mang[i] = Number(prompt('nhap gia trị: '));
+        } 
+        let max = Math.max(...mang);
+        console.log("Giá trị lớn nhất trong mảng là: " + max);
+    </script> -->
+
+    <script>
+        let n = Number(prompt('nhap so luong n'));
+        let mang = [n];
+        for ( let i=0;i<n;i++){
+            mang[i] = Number(prompt('nhap gia trị: '));
+        } 
+        mang = mang.sort();
+        for (let i=0;i<n;i++){
+            console.log(mang[i]);
+        }
+    </script>
+</body>
+</html>

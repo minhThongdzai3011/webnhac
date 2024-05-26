@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="Music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="Music.js"></script>
+</head>
+<body>
+    <div class="background-overlay"></div>
+        <header style="display: flex;">
+            <div class="part_1">
+                <div class="small_part1">
+                    <div class="a1">
+                        <a href="">
+                            <div class="a11">
+                                <i class="fa-solid fa-bars " id="text-white1"></i>
+                            </div>
+                        </a>
+                    </div >
+                    <div class="a2">
+                        <img src="https://music.youtube.com/img/on_platform_logo_dark.svg" alt="">
+                    </div>
+                </div>
+                <div style="width: 100%; height: 10px;"></div>
+                <div class="small_part2">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-solid fa-house" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Trang chủ</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-regular fa-compass" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Khám phá</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-regular fa-bookmark" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Thư viện</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-solid fa-arrow-up-from-bracket" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Nâng cấp</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div style="width: 100%; height: 20px;"></div>
+                <div style="display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                    <hr >
+                </div>
+                <div style="width: 100%; height: 20px;"></div>
+                <div class="small_part4">
+                    <button>
+                        <a href="">
+                            <div class="c1">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="c2">
+                                <p>Danh sách phát mới</p>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div style="width: 100%; height: 10px;"></div>
+                <div id="small_part5">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Nhạc đã thích</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-thumbtack" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Dang sách tự động</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d33"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div id="small_part51">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Nhạc của tôi</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-heart" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Dang sách phát</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d331"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div id="small_part52">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Tuyển tập podcast</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-list" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Dang sách tự động</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d332"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div id="small_part53">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Nhạc đã xóa</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-trash-can" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Kiểm tra nhạc</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d333"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="part_2">
+                <div style="display: flex;">
+                    <div class="small2_part1">
+                        <div class="input-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Tìm bài hát, đĩa nhạc, nghệ sĩ, podcast " class="background-gold">
+                        </div>
+                    </div>
+                    <div class="small2_part2">
+                    <div id="icon1">
+                        <i class="fa-solid fa-signal " ></i>
+                    </div>
+                    <div id="icon3">
+                        <i class="fa-solid fa-wifi" ></i>
+                    </div>
+                    </div>
+                    <div class="small3_part2">
+                    <div id="icon2">
+                        <i class="fa-solid fa-circle-user " id="icon22"></i>
+                    </div>
+                    <div id="text">
+                        <p>Bạn chưa đăng nhập</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="part_3">
+                    <div style="display: flex; width: 100%; height: 100px; align-items: center;">
+                        <div class="idea1">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Thư giãn</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea2">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Trên đường đi làm</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea3">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Dễ ngủ</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea4">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Nạp năng lượng</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea5">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Buồn</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea6">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Vui tươi</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea7">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Lãng mạng</p>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part_4">
+                    <div style="display: flex; width: 100%; height: 30px;">
+                        <p style="color: silver; margin-left: 100px; font-size: 13px;" >BẮT ĐẦU ĐÀI PHÁT BẰNG MỘT BÀI HÁT</p>
+                    </div>
+                </div>
+                <div class="part_5">
+                    <div style="display: flex; width: 60%; height: 50px;">
+                        <h2 style="color: white; margin-left: 100px;" >Chọn nhanh đài phát</h2>
+                    </div>
+                    <div style="width: 100px; height: 30px;">
+                        <a style="text-decoration: none;" href="">
+                            <button class="full">
+                                <p>Phát tất cả</p>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="part_6">
+                    <div style="background-color: transparent; width: 220px; width: 35%; margin-left: 30px;">
+                        <div class="big">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=mbEZ_9dhM_Y" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                            <button class="idea8">
+                                <div>
+                                    <img width="50px" height="50px" src="https://images.genius.com/da2a19c4ff443f8ac5d6ab7067a33b6b.500x500x1.jpg" alt="">
+                                </div>
+                                <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                    <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                        <p style="color: silver; font-size: 13px;"><b>2h</b></p>
+                                    </div>
+                                    <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                        <p style="color: rgb(159, 159, 159); font-size: 12px;">MCK // Nger | 2h</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
+                        <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                            <button class="play-button" data-audio="anh_nen/2h - MCK.mp3">
+                                <div class="play-icon" >
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </button>
+                        </div>
+                        <script>
+                            document.querySelectorAll('.play-button').forEach(button => {
+                                button.addEventListener('click', function() {
+                                    const audioSrc = this.getAttribute('data-audio');
+                                    const audioPlayer = document.getElementById('audio-player');
+                                    if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                        audioPlayer.style.bottom = '-300px';
+                                        audioPlayer.pause();
+                                    } else {
+                                        audioPlayer.style.bottom = '5px';
+                                        audioPlayer.src = audioSrc;
+                                        audioPlayer.play();
+                                    }
+                                });
+                            });
+                        </script>
+                        
+                        <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                            <button class="btn-share">
+                                <div class="share-icon">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                            </button>
+                        </div>
+                                
+                            
+                        
+                        </div>
+                        <div class="big">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=WAg0jKqgmuI" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                                <button class="idea8">
+                                    <div>
+                                        <img width="50px" height="50px" src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/b/5/8/a/b58ad1df75a28f3336741daa312dc25b.jpg" alt="">
+                                    </div>
+                                    <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: silver; font-size: 13px;"><b>05 (Không Phai)</b></p>
+                                        </div>
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: rgb(159, 159, 159); font-size: 12px;">T.R.I x Phong Max | 05 (Không Phai)</p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </a>
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="play-button" data-audio="anh_nen/05_khongphai.mp3">
+                                    <div class="play-icon" >
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <script>
+                                document.querySelectorAll('.play-button').forEach(button => {
+                                    button.addEventListener('click', function() {
+                                        const audioSrc = this.getAttribute('data-audio');
+                                        const audioPlayer = document.getElementById('audio-player');
+                                        if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                            audioPlayer.style.bottom = '-300px';
+                                            audioPlayer.pause();
+                                        } else {
+                                            audioPlayer.style.bottom = '5px';
+                                            audioPlayer.src = audioSrc;
+                                            audioPlayer.play();
+                                        }
+                                    });
+                                });
+                            </script>
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="btn-share">
+                                    <div class="share-icon">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                    </div>
+                                </button>
+                            </div>
+                                    
+                                
+                            
+                        </div>
+                        <div class="big">
+                                <a target="_blank" href="https://www.youtube.com/watch?v=YA_ljm-6yYw" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                                    <button class="idea8">
+                                        <div>
+                                            <img width="50px" height="50px" src="https://avatar-ex-swe.nixcdn.com/song/2022/12/14/5/b/1/b/1671005657446_640.jpg" alt="">
+                                        </div>
+                                        <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                            <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                                <p style="color: silver; font-size: 13px;"><b>Tiếc làm gì?</b></p>
+                                            </div>
+                                            <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                                <p style="color: rgb(159, 159, 159); font-size: 12px;">Parys | Tiếc làm gì?</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                                <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                    <button class="play-button" data-audio="anh_nen/tiec_lam_gi.mp3">
+                                        <div class="play-icon" >
+                                            <i class="fa-solid fa-play"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                <script>
+                                    document.querySelectorAll('.play-button').forEach(button => {
+                                        button.addEventListener('click', function() {
+                                            const audioSrc = this.getAttribute('data-audio');
+                                            const audioPlayer = document.getElementById('audio-player');
+                                            if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                                audioPlayer.style.bottom = '-300px';
+                                                audioPlayer.pause();
+                                            } else {
+                                                audioPlayer.style.bottom = '5px';
+                                                audioPlayer.src = audioSrc;
+                                                audioPlayer.play();
+                                            }
+                                        });
+                                    });
+                                </script>
+                                <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                    <button class="btn-share">
+                                        <div class="share-icon">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                        
+                                    
+                                
+                        </div>
+                        <div class="big">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=5EvCzfrSKmQ" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                                <button class="idea8">
+                                    <div>
+                                        <img width="50px" height="50px" src="https://i.ytimg.com/vi/5EvCzfrSKmQ/mqdefault.jpg" alt="">
+                                    </div>
+                                    <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: silver; font-size: 13px;"><b>TUESDAY</b></p>
+                                        </div>
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: rgb(159, 159, 159); font-size: 12px;">CHANGG X LIU GRACE | TUESDAY</p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </a>
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="play-button" data-audio="anh_nen/tuesday.mp3">
+                                    <div class="play-icon" >
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <script>
+                                document.querySelectorAll('.play-button').forEach(button => {
+                                    button.addEventListener('click', function() {
+                                        const audioSrc = this.getAttribute('data-audio');
+                                        const audioPlayer = document.getElementById('audio-player');
+                                        if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                            audioPlayer.style.bottom = '-300px';
+                                            audioPlayer.pause();
+                                        } else {
+                                            audioPlayer.style.bottom = '5px';
+                                            audioPlayer.src = audioSrc;
+                                            audioPlayer.play();
+                                        }
+                                    });
+                                });
+                            </script>
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="btn-share">
+                                    <div class="share-icon">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                    </div>
+                                </button>
+                            </div>
+                                    
+                                
+                            
+                        </div>
+                    </div>
+                    <div style="background-color: transparent; width: 220px; width: 35%; margin-left: 30px;">       
+                        <div class="big">
+                            <a target="_blank" href="https://www.youtube.com/watch?app=desktop&v=2TRTtUlUOyc" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                                <button class="idea8">
+                                    <div>
+                                        <img width="50px" height="50px" src="https://i1.sndcdn.com/artworks-zVtkBDuMQkNGhcYB-AK49cg-t500x500.jpg" alt="">
+                                    </div>
+                                    <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: silver; font-size: 13px;"><b>Cho anh một chút hy vọng</b></p>
+                                        </div>
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: rgb(159, 159, 159); font-size: 12px;">Haukong | Cho anh một chút hy vọng</p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </a>
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="play-button" data-audio="anh_nen/1_chut_hi_vong.mp3">
+                                    <div class="play-icon" >
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <script>
+                                document.querySelectorAll('.play-button').forEach(button => {
+                                    button.addEventListener('click', function() {
+                                        const audioSrc = this.getAttribute('data-audio');
+                                        const audioPlayer = document.getElementById('audio-player');
+                                        if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                            audioPlayer.style.bottom = '-300px';
+                                            audioPlayer.pause();
+                                        } else {
+                                            audioPlayer.style.bottom = '5px';
+                                            audioPlayer.src = audioSrc;
+                                            audioPlayer.play();
+                                        }
+                                    });
+                                });
+                            </script>
+                            
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="btn-share">
+                                    <div class="share-icon">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                    </div>
+                                </button>
+                            </div>
+                                    
+                                
+                            
+                            </div>
+                        <div class="big">
+                                <a target="_blank" href="https://www.youtube.com/watch?v=zckL2GoK2R4" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                                    <button class="idea8">
+                                        <div>
+                                            <img width="50px" height="50px" src="https://avatar-ex-swe.nixcdn.com/song/2023/06/19/4/8/4/a/1687161757974_640.jpg" alt="">
+                                        </div>
+                                        <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                            <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                                <p style="color: silver; font-size: 13px;"><b>Nụ hôn bisou</b></p>
+                                            </div>
+                                            <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                                <p style="color: rgb(159, 159, 159); font-size: 12px;">Mikenlodic | Nụ hôn bisou</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                                <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                    <button class="play-button" data-audio="anh_nen/nu_hon_bisou.mp3">
+                                        <div class="play-icon" >
+                                            <i class="fa-solid fa-play"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                <script>
+                                    document.querySelectorAll('.play-button').forEach(button => {
+                                        button.addEventListener('click', function() {
+                                            const audioSrc = this.getAttribute('data-audio');
+                                            const audioPlayer = document.getElementById('audio-player');
+                                            if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                                audioPlayer.style.bottom = '-300px';
+                                                audioPlayer.pause();
+                                            } else {
+                                                audioPlayer.style.bottom = '5px';
+                                                audioPlayer.src = audioSrc;
+                                                audioPlayer.play();
+                                            }
+                                        });
+                                    });
+                                </script>
+                                
+                                <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                    <button class="btn-share">
+                                        <div class="share-icon">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                        
+                                    
+                                
+                        </div>
+                        <div class="big">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=i0nd3NPJ4MI" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                                <button class="idea8">
+                                    <div>
+                                        <img width="50px" height="50px" src="https://avatar-ex-swe.nixcdn.com/song/2023/04/19/d/2/5/3/1681879735020_640.jpg" alt="">
+                                    </div>
+                                    <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: silver; font-size: 13px;"><b>Không Thể Say</b></p>
+                                        </div>
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: rgb(159, 159, 159); font-size: 12px;">HIEUTHUHAI | Không Thể Say</p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </a>
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="play-button" data-audio="anh_nen/ko_the_say.mp3">
+                                    <div class="play-icon" >
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <script>
+                                document.querySelectorAll('.play-button').forEach(button => {
+                                    button.addEventListener('click', function() {
+                                        const audioSrc = this.getAttribute('data-audio');
+                                        const audioPlayer = document.getElementById('audio-player');
+                                        if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                            audioPlayer.style.bottom = '-300px';
+                                            audioPlayer.pause();
+                                        } else {
+                                            audioPlayer.style.bottom = '5px';
+                                            audioPlayer.src = audioSrc;
+                                            audioPlayer.play();
+                                        }
+                                    });
+                                });
+                            </script>
+                            
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="btn-share">
+                                    <div class="share-icon">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                    </div>
+                                </button>
+                            </div>
+                                    
+                                
+                            
+                        </div>
+                        <div class="big">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=4k2verGRZNw" style="width: 100%; height: 50px; display: flex; text-decoration: none;" >
+                                <button class="idea8">
+                                    <div>
+                                        <img width="50px" height="50px" src="https://avatar-ex-swe.nixcdn.com/song/2023/12/01/b/f/c/b/1701403083276_640.jpg" alt="">
+                                    </div>
+                                    <div style=" width: 200px; height: 50px; margin-left: 10px;">
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: silver; font-size: 13px;"><b>TENTOVEN</b></p>
+                                        </div>
+                                        <div style="display: flex; width: 200px; height: 25px; align-items: center;">
+                                            <p style="color: rgb(159, 159, 159); font-size: 12px;">Wxrdie | TENTOVEN</p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </a>
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="play-button" data-audio="anh_nen/tentoven.mp3">
+                                    <div class="play-icon" >
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <script>
+                                document.querySelectorAll('.play-button').forEach(button => {
+                                    button.addEventListener('click', function() {
+                                        const audioSrc = this.getAttribute('data-audio');
+                                        const audioPlayer = document.getElementById('audio-player');
+                                        if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                                            audioPlayer.style.bottom = '-300px';
+                                            audioPlayer.pause();
+                                        } else {
+                                            audioPlayer.style.bottom = '5px';
+                                            audioPlayer.src = audioSrc;
+                                            audioPlayer.play();
+                                        }
+                                    });
+                                });
+                            </script>
+                            
+                            <div style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                <button class="btn-share">
+                                    <div class="share-icon">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                    </div>
+                                </button>
+                            </div>
+                                    
+                                
+                            
+                        </div>
+                    </div> 
+                </div>
+                
+                <div>
+                    <audio id="audio-player" controls></audio>
+                </div>
+            </div>
+    
+        </header>
+
+</body>
+</html>

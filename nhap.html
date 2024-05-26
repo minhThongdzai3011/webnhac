@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <style>
+        #audio-player {
+            position: fixed;
+            bottom: -300px;
+            z-index: 999;
+            transition: bottom 0.5s;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<button class="play-button" data-audio="anh_nen/2h - MCK.mp3">Play Audio 1</button>
+<button class="play-button" data-audio="anh_nen/05_khongphai.mp3">Play Audio 2</button>
+<button class="play-button" data-audio="anh_nen/1_chut_hi_vong.mp3">Play Audio 3</button>
+<audio id="audio-player" controls></audio>
+
+<script>
+    document.querySelectorAll('.play-button').forEach(button => {
+        button.addEventListener('click', function() {
+            const audioSrc = this.getAttribute('data-audio');
+            const audioPlayer = document.getElementById('audio-player');
+            if (audioPlayer.style.bottom === '5px' || audioPlayer.style.bottom === '') {
+                audioPlayer.style.bottom = '-300px';
+                audioPlayer.pause();
+            } else {
+                audioPlayer.style.bottom = '5px';
+                audioPlayer.src = audioSrc;
+                audioPlayer.play();
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
